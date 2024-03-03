@@ -25,11 +25,11 @@ if pdf_file is not None:
     # Button to answer question
     if st.button("Get Answer"):
         # Load pre-trained question answering model
-        qa_model = pipeline("question-answering")
+        qa_model = pipeline("text2text-generation")
         
         # Perform question answering
-        answer = qa_model(question=question, context=pdf_text)
+        answer = qa_model(f"question: {question}, context: {pdf_text}")
         
         # Display answer
         st.write("Answer:")
-        st.write(answer['answer'])
+        st.write(answer[0]['generated_text'])
