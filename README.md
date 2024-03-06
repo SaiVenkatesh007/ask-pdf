@@ -1,6 +1,6 @@
 # Ask-PDF
 
-### What is Ask-PDF?
+## What is Ask-PDF?
 
 Ask-PDF is a HuggingFace Pipeline powered PDF analyzer and QnA Bot. It is based on Streamlit.
 
@@ -8,7 +8,7 @@ Ask-PDF is a HuggingFace Pipeline powered PDF analyzer and QnA Bot. It is based 
 
 ---
 
-### How to run the code?
+## How to run the code?
 
 Create a Virtual Environment:
 
